@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_45 (Oracle Corporation)
+
+Name: license.txt
+SHA-256-Digest: 169u2UjGgD4yE6XjFz0+4u9DCy+06p1GB7Iml46o6BI=
+

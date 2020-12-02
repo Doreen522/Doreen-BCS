@@ -1,0 +1,122 @@
+Manifest-Version: 1.0
+Bundle-Description: The slf4j API
+Implementation-Title: slf4j-api
+Bundle-SymbolicName: org.slf4j.api
+Implementation-Version: 1.7.10
+Archiver-Version: Plexus Archiver
+Built-By: genie.orbit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.3
+Bundle-Vendor: %bundleVendor
+Import-Package: org.slf4j;version="[1.7,2)",org.slf4j.helpers;version=
+ "[1.7,2)",org.slf4j.spi;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Originally-Created-By: Apache Maven
+Export-Package: org.slf4j;version="1.7.10";uses:="org.slf4j.spi",org.s
+ lf4j.helpers;version="1.7.10";uses:="org.slf4j,org.slf4j.spi",org.slf
+ 4j.spi;version="1.7.10";uses:="org.slf4j"
+Bundle-Name: %bundleName
+Bundle-Version: 1.7.10.v20170428-1633
+Created-By: Eclipse Bundle Recipe Maven Plug-in
+Build-Jdk: 1.8.0_131
+
+Name: org/slf4j/helpers/SubstituteLogger.class
+SHA-256-Digest: VSH0I+uQSTofFKFnEEYSAcC8Eb6SMBNxqTB5s//+3Gs=
+
+Name: about_files/SLF4J-LICENSE.txt
+SHA-256-Digest: YFfxVzBfb7YiGJZ96+aFfZ6Fr6fnd5eNOIUE9FurUgI=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.slf4j.api/pom.xml
+SHA-256-Digest: jtwTwR0BugMgWJZvGWk1p19yxtSyXixo0lF3zjAyn/g=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.slf4j.api/pom.prope
+ rties
+SHA-256-Digest: HxvP8TB1523VbEfabz+IAyU/bXBpV+nm6T7OifTJinc=
+
+Name: org/slf4j/helpers/NamedLoggerBase.class
+SHA-256-Digest: oz18NvqDj4eWGFa9U+5eEmQrTF0LRZQq4mHl/j8vdzQ=
+
+Name: org/slf4j/helpers/NOPMDCAdapter.class
+SHA-256-Digest: SbZmcauEZWDFIIOjGSpIaHjHdR0aP1NGcW3FCcfJa/Q=
+
+Name: org/slf4j/MarkerFactory.class
+SHA-256-Digest: bTPnbbIKSOH4a/KCL69MgiO8cLyfqnPKvujbWrozj3c=
+
+Name: org/slf4j/helpers/BasicMarker.class
+SHA-256-Digest: w3ThaK26FWv/KQOSp3SZa/Y761kcRwEOG7tABnti4eA=
+
+Name: org/slf4j/spi/LoggerFactoryBinder.class
+SHA-256-Digest: 590J5QFk7godYsu+v4rhuXZri6MZS2MXlBt02i8kWfs=
+
+Name: org/slf4j/MDC$MDCCloseable.class
+SHA-256-Digest: ZwkRQvnqiJmlXPwP4HPe3s3Kh2SFaAnahslymv6e1ZA=
+
+Name: org/slf4j/spi/LocationAwareLogger.class
+SHA-256-Digest: pDkSkexKEetAFR1Woj6B4CDIxW3ljbHQM2XIE/v9oCA=
+
+Name: org/slf4j/helpers/MessageFormatter.class
+SHA-256-Digest: tehPh6pFAg2OoJVAHYJH2QfM9eAbOhYcfix5UI2NsVM=
+
+Name: org/slf4j/helpers/Util$ClassContextSecurityManager.class
+SHA-256-Digest: nsWsL16D4EhjneA0jdi/KhAd0viYqsFhl32mxLV5cbw=
+
+Name: org/slf4j/IMarkerFactory.class
+SHA-256-Digest: Mg411RyOXsjooQPslkFG1Y/GQFA9mzUs9vj2r0F+ssk=
+
+Name: org/slf4j/ILoggerFactory.class
+SHA-256-Digest: Y0gRuVN6zV2GKOs8gnRd3XRo9+Rmfz5okf/W8t9Ogn4=
+
+Name: about.html
+SHA-256-Digest: DYHB0H6nr5Arsg/35FbpEWI7GMZ/MhaeCQV59TW0ZcQ=
+
+Name: org/slf4j/helpers/BasicMDCAdapter.class
+SHA-256-Digest: kFn6y590zQWV2e9UWdy3Cp9P9dtBUaQC2LySIJuMVuA=
+
+Name: org/slf4j/MDC.class
+SHA-256-Digest: qa34/x0d/wBLrKHxDVq1UE+66UTd7EyflYA+bEFspv4=
+
+Name: org/slf4j/spi/MDCAdapter.class
+SHA-256-Digest: luuMb9QFZfPzzLVR5bQEnmUB0qeqhFTvBPpBqBvfK+k=
+
+Name: org/slf4j/LoggerFactory.class
+SHA-256-Digest: eY4pYwwakceBVywtiC0AZYRGHSpuJBEQrMxsE2jxny8=
+
+Name: org/slf4j/helpers/Util.class
+SHA-256-Digest: W3OnnYAzVRRo1bzrl7iEhlTaxd+2zvU0FuC76HCpfqE=
+
+Name: org/slf4j/helpers/NOPLogger.class
+SHA-256-Digest: n00FyLxxEMxRNmvICcw7j53WvB1iqta2Q4gruBzoMnI=
+
+Name: org/slf4j/helpers/NOPLoggerFactory.class
+SHA-256-Digest: 3B2s1lgPQoF61uMJtFdirpbSWnYDlQOirEXBL4F6Rj8=
+
+Name: org/slf4j/helpers/SubstituteLoggerFactory.class
+SHA-256-Digest: b5bwaeVdSZiY5CQkN7JR4ovrQOS+KPNVDm7sJLoXsd0=
+
+Name: org/slf4j/helpers/Util$1.class
+SHA-256-Digest: 0ixQnR0L4xtOEdmFWKeKK8f0vLtqhdz5JGxqTUmSxjY=
+
+Name: org/slf4j/Logger.class
+SHA-256-Digest: kY4mbxjDbn8hEGaKZpUfujoHz99TnXK7pnSlSMttvCE=
+
+Name: org/slf4j/Marker.class
+SHA-256-Digest: 8ICGmy7uc7WBcByVwV2Fjp6DhN0KmsgzAGQav3Ywi2Y=
+
+Name: org/slf4j/helpers/FormattingTuple.class
+SHA-256-Digest: HdhzYWtd6Dt71dA+Z/dkRB14WkNNILPWgm6oW9OGOaM=
+
+Name: org/slf4j/MDC$1.class
+SHA-256-Digest: K+S/7qDDw9387+Ct6I8qV2lyKxvG71xhV1+5Ttpmmfg=
+
+Name: org/slf4j/helpers/MarkerIgnoringBase.class
+SHA-256-Digest: /PlZIAJ/SlIld7ssF2argdQv1gWUOJKc0BQhqlnNDa8=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: ENlT5nMZAVbEh1Ty7kW3bbZypnEGW+AKLcutRxIYotk=
+
+Name: org/slf4j/helpers/BasicMarkerFactory.class
+SHA-256-Digest: LmYGPED1z5mnHXeWcnAuVetd29PWtJaxaou0abqe8Qg=
+
+Name: org/slf4j/spi/MarkerFactoryBinder.class
+SHA-256-Digest: mqEuvGoU0cs45bt/qgvbbT3UCy9LHMjrFn8Ennvz7eE=
+
